@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="relative w-full h-full bg-[#FBFBFB] items-center flex flex-col md:flex-row">
+      <figure class=" h-[720px] w-1/2 custom"></figure>
+      <div class="w-1/2">
+        <form action="" class=" ml-[50px] mr-[57px] p-[50px] flex flex-col gap-4 bg-[#FFFFFF] border border-solid border-black/5 rounded-[20px] box-shadow">
+            <label for="height-feet" class="text-base w-full h-[45px]"> Height (Feet) 
+                <input type="number" name="" id="" class="border border-solid border-black/80 h-[45px] rounded-sm float-right">
+            </label>
+            <label for="height-inches" class="w-full h-[45px]"> Height (Inches) 
+                <input type="number" name="" id="" class="border border-solid border-black/80 h-[45px] rounded-sm float-right">
+            </label>
+            <label for="weight" class="w-full h-[45px]"> Weight (Kg.) 
+                <input type="number" name="" id="" class="border border-solid border-black/80 h-[45px] rounded-sm float-right">
+            </label>
+            <label for="gender" class="w-full h-[45px]"> Gender 
+                <input type="text" name="" id="" class="border border-solid border-black/80 h-[45px] rounded-sm float-right">
+            </label>
+            <label for="" class="w-full h-[45px]"> Age 
+                <input type="number" name="" id="" class="border border-solid border-black/80 h-[45px] rounded-sm float-right">
+            </label>
+            <div class="w-full h-[45px] text-center text-[#B9B9B9] text-[20px] font-[700]">BMI RESULT</div>
+            <button class="btn" id="btn" type="submit" onclick="handleSubmit()">Calculate BMI</button>
+            
+        </form>
+      </div>
+    </div>
+    <script src="/src/script.js"></script>
+</body>
+</html>
